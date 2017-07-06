@@ -1,0 +1,55 @@
+2017-07-06 16:11:52 INFO  c.a.ProductApplication:48 - Starting ProductApplication on HQB100DIT15 with PID 15628 (E:\Documents\Java\ALivWorkspace\Product\target\classes started by Dy in E:\Documents\Java\ALivWorkspace\Product)
+2017-07-06 16:11:52 INFO  c.a.ProductApplication:593 - No active profile set, falling back to default profiles: default
+2017-07-06 16:11:52 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37ca5b24: startup date [Thu Jul 06 16:11:52 ICT 2017]; root of context hierarchy
+2017-07-06 16:11:53 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7e165506] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 16:11:53 INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping:236 - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2017-07-06 16:11:53 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-07-06 16:11:53 INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-07-06 16:11:53 INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-07-06 16:11:53 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-07-06 16:11:53 INFO  o.s.w.c.ContextLoader:276 - Root WebApplicationContext: initialization completed in 1630 ms
+2017-07-06 16:11:53 INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-06 16:11:53 INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'messageDispatcherServlet' to [/services/*]
+2017-07-06 16:11:53 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-06 16:11:53 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-06 16:11:53 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-06 16:11:53 INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-06 16:11:54 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-06 16:11:54 INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-06 16:11:54 INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-07-06 16:11:54 INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-07-06 16:11:54 INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-07-06 16:11:54 INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-07-06 16:11:54 INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-07-06 16:11:55 INFO  o.h.t.h.SchemaExport:400 - HHH000227: Running hbm2ddl schema export
+2017-07-06 16:11:55 INFO  o.h.t.h.SchemaExport:464 - HHH000230: Schema export complete
+2017-07-06 16:11:55 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-06 16:11:55 INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37ca5b24: startup date [Thu Jul 06 16:11:52 ICT 2017]; root of context hierarchy
+2017-07-06 16:11:55 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/api/addResponseCode],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.aliv.responsecode.ResponseCodeRestController.addResponseCode(com.aliv.responsecode.ResponseCodeModel)
+2017-07-06 16:11:55 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-06 16:11:55 INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-06 16:11:55 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-06 16:11:55 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-06 16:11:55 INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-06 16:11:56 INFO  o.s.b.d.a.OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2017-07-06 16:11:56 INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-07-06 16:11:56 INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8080 (http)
+2017-07-06 16:11:56 INFO  c.a.ProductApplication:57 - Started ProductApplication in 4.352 seconds (JVM running for 4.91)
+2017-07-06 16:11:58 INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-07-06 16:11:58 INFO  o.s.w.s.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-07-06 16:11:58 INFO  o.s.w.s.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2017-07-06 16:11:58 INFO  o.h.h.i.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-07-06 16:11:58 INFO  c.a.r.ResponseCodeServiceImpl:23 - ResposeCode created
+2017-07-06 16:12:26 INFO  c.a.r.ResponseCodeServiceImpl:26 - ResposeCode already exist
+2017-07-06 16:12:41 INFO  c.a.r.ResponseCodeServiceImpl:26 - ResposeCode already exist
+2017-07-06 16:12:55 INFO  c.a.r.ResponseCodeServiceImpl:23 - ResposeCode created
+2017-07-06 16:14:32 INFO  c.a.r.ResponseCodeServiceImpl:26 - ResposeCode already exist
+2017-07-06 16:14:38 INFO  c.a.r.ResponseCodeServiceImpl:23 - ResposeCode created
+2017-07-06 16:15:20 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-07-06 16:15:20 INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37ca5b24: startup date [Thu Jul 06 16:11:52 ICT 2017]; root of context hierarchy
+2017-07-06 16:15:20 INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-07-06 16:15:20 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-07-06 16:15:20 INFO  o.h.t.h.SchemaExport:400 - HHH000227: Running hbm2ddl schema export
+2017-07-06 16:15:20 INFO  o.h.t.h.SchemaExport:464 - HHH000230: Schema export complete
