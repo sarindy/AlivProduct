@@ -27,7 +27,7 @@ public class ProductCategory {
 	private long id;
 
 	@Column(name = "product_code")
-	private String productCode;
+	private String pCatCode;
 	
 	@Column(name = "product_name")
 	private String name;
@@ -44,11 +44,11 @@ public class ProductCategory {
 	private int deleted;
 
 	public String getProductCode() {
-		return productCode;
+		return pCatCode;
 	}
 
 	public void setProductCode(String productCode) {
-		this.productCode = productCode;
+		this.pCatCode = productCode;
 	}
 
 	public String getName() {
@@ -90,7 +90,7 @@ public class ProductCategory {
 
 	public ProductCategory(String productCode, String name, Date lastModifiedDate, int createdBy, int deleted) {
 		super();
-		this.productCode = productCode;
+		this.pCatCode = productCode;
 		this.name = name;
 		this.lastModifiedDate = lastModifiedDate;
 		this.createdBy = createdBy;
