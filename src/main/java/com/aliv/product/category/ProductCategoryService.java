@@ -1,7 +1,5 @@
 package com.aliv.product.category;
 
-import com.aliv.responsecode.ResponseCodeModel;
-
 public interface ProductCategoryService {
 
 	public ProductCategory addProductCategory(ProductCategory productCategory);
