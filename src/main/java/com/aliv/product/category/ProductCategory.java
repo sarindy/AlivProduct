@@ -26,10 +26,10 @@ public class ProductCategory {
 	@Column(name = "recid")
 	private long id;
 
-	@Column(name = "product_code")
+	@Column(name = "product_category_code")
 	private String pCatCode;
 	
-	@Column(name = "product_name")
+	@Column(name = "product_category_name")
 	private String name;
 
 	@Column(name = "last_modified_date")
@@ -43,12 +43,12 @@ public class ProductCategory {
 	@Column(name = "deleted")
 	private int deleted;
 
-	public String getProductCode() {
+	public String getpCatCode() {
 		return pCatCode;
 	}
 
-	public void setProductCode(String productCode) {
-		this.pCatCode = productCode;
+	public void setpCatCode(String pCatCode) {
+		this.pCatCode = pCatCode;
 	}
 
 	public String getName() {
@@ -83,19 +83,22 @@ public class ProductCategory {
 		this.deleted = deleted;
 	}
 
+	
 	public ProductCategory() {
-		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
-	public ProductCategory(String productCode, String name, Date lastModifiedDate, int createdBy, int deleted) {
-		super();
-		this.pCatCode = productCode;
+	public ProductCategory(String pCatCode, String name, Date lastModifiedDate, int createdBy, int deleted) {
+		
+		this.pCatCode = pCatCode;
 		this.name = name;
 		this.lastModifiedDate = lastModifiedDate;
 		this.createdBy = createdBy;
 		this.deleted = deleted;
 	}
+	
+	
+
 	
 	
 

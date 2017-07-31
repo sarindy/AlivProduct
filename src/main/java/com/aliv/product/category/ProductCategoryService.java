@@ -4,9 +4,9 @@ import com.aliv.responsecode.ResponseCodeModel;
 
 public interface ProductCategoryService {
 
-	public ResponseCodeModel addProductCategory(ProductCategory productCategory);
+	public ProductCategory addProductCategory(ProductCategory productCategory);
 
-	public ResponseCodeModel getProductCategory(String code);
+	public ProductCategory getProductCategory(String code);
 
 	public void deleteProductCategory(ProductCategory productCategory);
 
